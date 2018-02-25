@@ -4,6 +4,7 @@
     <head>
         <title>Gerardo Garcia</title>
         <!-- Link to your external CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
@@ -11,41 +12,61 @@
         <header>
 
             <section id="name">
-                <h1><span>Gerardo Garcia</span></h1>
+                <h1>Gerardo Garcia</h1>
             </section>
 
             <section id="links">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
 
             </section>
-
             
-
         </header>
 
         <div class="container">
 
             <section id="about">
                 <h2>About Me</h2>
-                <img src="assets/images/SF.svg" alt="Gerardo Garcia">
-                <p>This is a paragaph about me.  I need to add more text. </p>
-                <p>This is another paragragh about me.</p>
+                <img id="picture" src="assets/images/SF.svg" alt="Gerardo Garcia">
+                <p>Hello World!  My name is Gerardo Garcia.  I am 42 years old, married and a father of two.  
+                    My wife's name is Evangelina and we have been married for 13 years.  
+                    I have a 10 year old son named Max and a 5 year old daughter Nayeli.
+                    I currently live in the city of Hercules, CA.  
+                </p>
+                <br>
+                <p>I am currently working as a Sales Engineer for a company called Ixia.
+                    I enjoy my job but I am looking to try something new.  I signed up for a coding bootcamp
+                    to see if it was something I could get into.  I have done some programming before in TCL
+                    and Python but I would consider myself more of a hack when it comes to coding.  I'm hoping to 
+                    learn the proper way to code and have some fun along the way.            
+                </p>
 
             </section>
 
-            <section id="connect">
-                <h3>Connect with Me</h3>
+            <section class="connect">
+                <h3>Connect with Me</h3> 
+                <a href="#">
+                        <img class="box github" src="assets/images/github.png" alt="GitHub Link">
+                    </a>
+                    <a href="#">
+                            <img class="box linkedin" src="assets/images/linkedin.png" alt="LinkedIn Link">
+                    </a>
+                    <a href="#">
+                            <img class="box stackoverflow" src="assets/images/stackoverflow.png" alt="GitHub Link">
+                    </a>
                 
             </section>
+
+            
+
         </div>
 
-        <div class="footer">
-            <p>Copyright 2018 Gerardo Garcia</p>
-        </div>
+        <footer>
+            <h4>&copy Copyright 2018 Gerardo Garcia</h4>
+        </footer>
         
     </body>
 </html>
